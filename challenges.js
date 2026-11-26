@@ -84,9 +84,9 @@ const students = [
 
 // ✍️ Solve it here ✍️
 
-console.log(students.forEach((student) => {
+students.forEach((student) => {
    console.log(`${student.name} scored ${student.score}`);
-}));
+});
 
 
 /* ------------------------------------------------------------
